@@ -1,0 +1,119 @@
+@media screen and (max-width: 420px) {
+
+    .nav-bar {
+        display: none;
+    }
+    
+    .slide {
+        display: none;
+    }
+        
+    .container {
+        display: grid;
+        grid-template-columns: 375px;
+        grid-template-rows: 110px 180px 70px 140px 210px 130px 265px 100px 270px 265px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .slide-mobile {
+        grid-area: 1 / 1 / 4 / 2;
+        display: block;
+    }
+
+    .slide-mobile img {
+        width: 375px;
+    }
+
+    .nav-dropdown {
+        display: block;
+        grid-area: 1 / 1 / 2 / 2;
+        margin: 45px 0 0 30px;
+    }
+
+    .nav-dropdown img {
+        margin-right: 105px;
+    }
+    
+    .dropdown {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: white;
+        width: 375px;
+        height: 110px;;
+        box-shadow: 0px 8px 16px 0px rgb(110, 109, 109);
+        z-index: 1;
+    }
+
+    .dropdown img {
+        margin: 45px 35px 0 25px;
+    }
+
+    .dropdown li {
+        display: inline;
+        padding: 0 25px 0 0;
+    }
+
+    .hamburger:hover {
+        filter: opacity(100%);
+        cursor: pointer;
+    }
+
+    .hamburger:hover .dropdown{
+        display: block;
+    }
+
+
+    .button-slide {
+        grid-area: 3 / 1 / 4 / 2;
+        margin: 10px 0 0 250px;
+    }
+
+    .button-slide img {
+        margin-top: 20px;
+    }
+
+    #icon-left {
+        margin-left: 20px;
+    }
+
+    #icon-right {
+        margin-left: 55px;
+    }
+
+    .title-slide {
+        grid-area: 4 / 1 / 5 / 2;
+        margin: 50px 0 0 30px;
+        font-size: 40px;
+    }
+
+    .description-slide {
+        grid-area: 5 / 1 / 6 / 2;
+        margin: 0 30px 0 30px;
+    }
+
+    .button-shop {
+        grid-area: 6 / 1 / 7 / 2;
+        margin: 0px 0 0 30px;
+    }
+
+    .image-left {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
+    .about {
+        grid-area: 8 / 1 / 9 / 2;
+        margin: 60px 0 0 30px;
+    }
+
+    .about-description {
+        grid-area: 9 / 1 / 10 / 2;
+        margin: 0 30px 0 30px;
+    }
+
+    .image-right {
+        grid-area: 10 / 1 / 11 / 2;
+    }
+}

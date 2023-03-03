@@ -32,7 +32,7 @@ Users should be able to:
 ## My process
 
 - [x] Desktop-design
-- [ ] Mobile-design
+- [x] Mobile-design
 - [ ] Active-states
 - [ ] Interactive
 - [ ] Extra Lightbox
