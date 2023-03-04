@@ -33,7 +33,7 @@ Users should be able to:
 
 - [x] Desktop-design
 - [x] Mobile-design
-- [ ] Active-states
+- [x] Active-states
 - [ ] Interactive
 - [ ] Extra Lightbox
 
