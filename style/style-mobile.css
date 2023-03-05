@@ -14,7 +14,7 @@
     .container {
         display: grid;
         grid-template-columns: 375px;
-        grid-template-rows: 110px 180px 70px 140px 210px 130px 265px 100px 270px 265px;
+        grid-template-rows: 110px 180px 70px 140px 210px 130px 265px 100px 270px 227px;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
     }
@@ -50,7 +50,7 @@
     }
 
     .nav-dropdown {
-        margin: 45px 35px 0 25px;
+        margin: 2px 20px 0 0px;;
     }
 
     .dropdown li {
@@ -58,8 +58,8 @@
         padding: 0px 5px 0 25px;
     }
 
-    .nav-mobile:hover .dropdown {
-        display: block;
+    #close {
+        padding: 40px 0 0 0;
     }
 
     .button-slide {
@@ -91,6 +91,10 @@
         grid-area: 7 / 1 / 8 / 2;
     }
 
+    .image-left img {
+        width: 375px;
+    }
+
     .about {
         grid-area: 8 / 1 / 9 / 2;
         margin: 60px 0 0 30px;
@@ -103,5 +107,9 @@
 
     .image-right {
         grid-area: 10 / 1 / 11 / 2;
+    }
+
+    .image-right img {
+        width: 375px;
     }
 }
