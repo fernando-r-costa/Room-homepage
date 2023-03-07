@@ -17,6 +17,10 @@ body {
     display: block;
 }
 
+#image-slide {
+    cursor: pointer;
+}
+
 .slide-mobile {
     display: none;
 }
@@ -79,7 +83,7 @@ body {
 .button-shop {
     grid-area: 4 / 4 / 5 / 6;
     text-transform: uppercase;
-    margin: 20px 0 0 110px;
+    margin: 30px 0 0 110px;
     color: hsl(0, 0%, 27%);
     font-size: 22px;
     font-weight: 600;

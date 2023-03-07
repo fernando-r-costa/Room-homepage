@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="./style/style.css">
   <link rel="stylesheet" href="./style/style-mobile.css">
+  <link rel="stylesheet" href="./style/style-lightbox.css">
 
   <title>Room Homepage</title>
   
@@ -84,7 +85,41 @@
     </div>
   </div>
 
+  <!-- modal dos slides -->
+  <div class="modal" id="myModal">
+    <span class="close cursor" id="close-cursor">&times;</span>
+    <div class="modal-content">
+      <!--slides-->
+      <div class="mySlides">
+        <img src="./images/desktop-image-hero-1.jpg">
+      </div>
+      <div class="mySlides">
+        <img src="./images/desktop-image-hero-2.jpg">
+      </div>
+      <div class="mySlides">
+        <img src="./images/desktop-image-hero-3.jpg">
+      </div>
+      <a class="prev" id="prev">&#10094;</a>
+      <a class="next" id="next">&#10095;</a>
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!--thumbnails-->
+      <div class="column">
+        <img class="demo cursor" id="thumbnail1" src="./images/desktop-image-hero-1.jpg">
+      </div>
+      <div class="column">
+        <img class="demo cursor" id="thumbnail2" src="./images/desktop-image-hero-2.jpg">
+      </div>
+      <div class="column">
+        <img class="demo cursor" id="thumbnail3" src="./images/desktop-image-hero-3.jpg">
+      </div>
+    </div>
+  </div>
+
   <script src="./script/script.js"></script>
+  <script src="./script/script-lightbox.js"></script>
 
 </body>
 

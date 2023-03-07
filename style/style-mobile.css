@@ -84,7 +84,7 @@
 
     .button-shop {
         grid-area: 6 / 1 / 7 / 2;
-        margin: 0px 0 0 30px;
+        margin: 10px 0 0 30px;
     }
 
     .image-left {

@@ -35,7 +35,7 @@ Users should be able to:
 - [x] Mobile-design
 - [x] Active-states
 - [x] Interactive
-- [ ] Extra Lightbox
+- [x] Extra Lightbox
 
 ## Author
 
