@@ -1,25 +1,25 @@
-# Frontend Mentor - Room homepage solution
+# Solução de homepage para Room
 
-This is a solution to the [Room homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Índice
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [Visão Geral](#visão-geral)
+  - [O Desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-- [Author](#author)
+- [Meu processo](#meu-processo)
+- [Autor](#autor)
 
-## Overview
 
-### The challenge
+## Visão Geral
 
-Users should be able to:
+### O Desafio
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Navigate the slider using either their mouse/trackpad or keyboard
+Os usuários deverão ter a capacidade de:
+
+- Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo;
+- Ver os estados de foco para todos os elementos interativos na página;
+- Navegar pelo controle deslizante usando o mouse/trackpad ou o teclado.
 
 ### Screenshot
 
@@ -27,16 +27,17 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Room - Homepage](https://room-homepage-red-iota.vercel.app/)
+- Site URL: [Room - Homepage](https://room-homepage-red-iota.vercel.app/)
 
-## My process
+
+## Meu processo
 
 - [x] Desktop-design
 - [x] Mobile-design
-- [x] Active-states
-- [x] Interactive
-- [x] Extra Lightbox
+- [x] Estados-ativos
+- [x] Interação
+- [x] Extra-Lightbox
 
-## Author
+## Autor
 
 - LinkedIn - [Fernando R Costa](https://www.linkedin.com/in/fernando-r-costa/)
